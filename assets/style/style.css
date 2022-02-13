@@ -1,4 +1,3 @@
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,7 +6,6 @@
 html{
     font-family: 'Nunito Sans', sans-serif;
     scroll-behavior: smooth;
-
 }
 
 :root{
@@ -26,7 +24,6 @@ h1{
 p{
     font-size: 30px;
 }
-
 
 /* .hero-heading {
     line-height: 1;
@@ -49,17 +46,17 @@ p{
     font-weight: 600;
 }
 
-/* 
+
 @media (max-width: 800px) {
-    .explore-btn{
-        margin-left: 50px;
+    .kotak{
+        font-size: 8px;
     }
-    .hero-heading{
-        margin-left: 50px;
-        margin-top: 80px;
-        line-height: 32px;
+
+    h1{
+        font-size: 40px;
     }
-    .lead{
-        margin-left: 50px;
+
+    p{
+        font-size: 20px;
     }
-} */
+}
