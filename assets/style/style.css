@@ -13,16 +13,29 @@ html{
     --main-dark: #272727;
 }
 
-.judul{
+.main-color{
     color: var(--main-font-color);
+}
+
+.judul{
+   
+    font-size: 30px;
 }
 
 h1{
     font-size: 70px;
 }
 
+h2{
+    font-size: 48px;
+}
+
+h3{
+    font-size: 36px;
+}
+
 p{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 /* .hero-heading {
@@ -46,17 +59,59 @@ p{
     font-weight: 600;
 }
 
+.news{
+    margin-top: 118px;
+}
+
+.form{
+    background-color: var(--main-font-color);
+}
+
+.garis_verikal{
+    border-left: 1px black solid;
+    height: 170px;
+    width: 0px;
+    }
+
+.btn-loc{
+    border-radius: 50px;
+    background-color: var(--main-font-color);
+}
 
 @media (max-width: 800px) {
     .kotak{
-        font-size: 8px;
+        font-size: 10px;
     }
 
     h1{
         font-size: 40px;
     }
 
-    p{
+    .title{
         font-size: 20px;
     }
+    .explore-btn{
+        font-size: 10px;
+        width: 100px;
+        height: 30px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+
+    P{
+        font-size: 14px;
+    }
+
+    .news{
+        margin-top: 0;
+    }
 }
+
+
+
